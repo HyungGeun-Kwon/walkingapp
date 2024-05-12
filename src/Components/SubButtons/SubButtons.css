@@ -1,0 +1,29 @@
+.mylocation-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+    z-index: 10;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    transition: bottom 0.5s;   /* transform 속성의 변화를 0.5초 동안 부드럽게 전환 */
+}
+.mylocation-btn,
+.signal-btn {
+    cursor: pointer;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.5);
+    border: none;
+    background-color: white;
+    align-items: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.signal-btn {
+    margin: 10px;
+    cursor: pointer;
+    background-size: cover; /* 이미지를 버튼 크기에 맞게 조절 */
+    background-repeat: no-repeat; /* 이미지 반복 방지 */
+}
